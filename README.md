@@ -4,9 +4,8 @@
 
 ## Prerequisites
 
-For this script to work, you need 3 things:
+For this script to work, you need the following things:
 - Python 3.*
-- virtualenv (`pip install virtualenv`)
 - Both the script and the wrapper should have the same basename
 
 ## Dependencies

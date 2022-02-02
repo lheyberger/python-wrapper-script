@@ -13,7 +13,7 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 # Create virtualenv if needed
 ####
 if [ ! -d ${VIRTUAL_ENV} ] ; then
-    virtualenv ${VIRTUAL_ENV} 2>&1 >/dev/null
+    python3 -m venv ${VIRTUAL_ENV} 2>&1 >/dev/null
 fi
 
 ####
